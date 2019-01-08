@@ -1,0 +1,23 @@
+[
+  "test_forms.py::TestRegisterForm::()::test_validate_user_already_registered",
+  "test_forms.py::TestRegisterForm::()::test_validate_email_already_registered",
+  "test_forms.py::TestRegisterForm::()::test_validate_success",
+  "test_forms.py::TestLoginForm::()::test_validate_success",
+  "test_forms.py::TestLoginForm::()::test_validate_unknown_username",
+  "test_forms.py::TestLoginForm::()::test_validate_invalid_password",
+  "test_forms.py::TestLoginForm::()::test_validate_inactive_user",
+  "test_functional.py::TestLoggingIn::()::test_can_log_in_returns_200",
+  "test_functional.py::TestLoggingIn::()::test_sees_alert_on_log_out",
+  "test_functional.py::TestLoggingIn::()::test_sees_error_message_if_password_is_incorrect",
+  "test_functional.py::TestLoggingIn::()::test_sees_error_message_if_username_doesnt_exist",
+  "test_functional.py::TestRegistering::()::test_can_register",
+  "test_functional.py::TestRegistering::()::test_sees_error_message_if_passwords_dont_match",
+  "test_functional.py::TestRegistering::()::test_sees_error_message_if_user_already_registered",
+  "test_models.py::TestUser::()::test_get_by_id",
+  "test_models.py::TestUser::()::test_created_at_defaults_to_datetime",
+  "test_models.py::TestUser::()::test_password_is_nullable",
+  "test_models.py::TestUser::()::test_factory",
+  "test_models.py::TestUser::()::test_check_password",
+  "test_models.py::TestUser::()::test_full_name",
+  "test_models.py::TestUser::()::test_roles"
+]

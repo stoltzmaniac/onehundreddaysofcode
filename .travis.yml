@@ -1,0 +1,23 @@
+sudo: false
+language: python
+python:
+- 3.6
+services:
+- postgresql
+- mongodb
+install:
+- pip install -r requirements/dev.txt
+- nvm install 6.10
+- nvm use 6.10
+- npm install
+before_script:
+- black
+- psql -c 'create database onehundreddaysofcode;' -U postgres
+- npm run lint
+- npm run build
+script:
+- flask test
+- flask coverage
+after_success:
+- coveralls
+
