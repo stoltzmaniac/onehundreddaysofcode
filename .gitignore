@@ -87,8 +87,8 @@ env/
 /node_modules/
 
 # webpack-built files
-/onehundreddaysofcode/static/build/
-/onehundreddaysofcode/webpack/manifest.json
+#/onehundreddaysofcode/static/build/
+#/onehundreddaysofcode/webpack/manifest.json
 
 # Configuration
 .env
