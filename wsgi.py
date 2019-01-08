@@ -1,4 +1,4 @@
-import autoapp
+from onehundreddaysofcode.app import create_app
 
 if __name__ == "__main__":
-    app = autoapp.app
+    app = create_app()
