@@ -51,5 +51,4 @@ def altair_plot() -> alt.Chart:
         x=alt.X('latitude', bin=True, axis=None),
         y='count()'
     )
-
     return bar
