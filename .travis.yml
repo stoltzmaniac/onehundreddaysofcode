@@ -19,6 +19,5 @@ before_script:
 script:
 - flask test
 - flask coverage
-after_success:
-- coveralls
+
 
