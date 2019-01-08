@@ -6,6 +6,7 @@ services:
 - postgresql
 - mongodb
 install:
+- pip install --upgrade pip
 - pip install -r requirements/dev.txt
 - nvm install 6.10
 - nvm use 6.10
