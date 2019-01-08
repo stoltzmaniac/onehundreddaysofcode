@@ -21,10 +21,3 @@ script:
 - flask coverage
 after_success:
 - coveralls
-deploy:
-  provider: heroku
-  api_key:
-    secure: ZOOwTZIymv76QUFPBL3iQRMj68ZiyCU1RcBgUv9GBydqvVPH5znYtBNjn/G8V4qbU5ctvYGNlXcQE+PIidEQAabfWMtB/095CYkf3vgkTi8kJ+4YOCoIKT/TfQ+BYIwr+3X4LSYuQZpcMlw0OmyvXTJyfrxrOvvYgPUItl6L8mANCS57IQQvsVBnZbYb+RRYO1/kG/Od+4YS+3tvHLqER8M9Yb1BuSVNayfnCEwNXhSUIOBhEsl2yE/nWP2VMk3X8P3Ajh4YoRFEczIcD9iZmd7cpH4YCJq+ccWYfvcoP0ttaSs3K09Fy5cCfRYQh65DYMyXML2mp3+bx1cdSOy0FymagBkmUu1LB5v7jUnrjlzxrDgoLjRe8OaszI069l5kU+V1L1B/72OniqjZQ8QNFzjHp+I56bvUz4DM9QI7X7cCmv/Qq2BUn5rBtJeQyLi4aFS3fqQodY6Wb2pZgF/NAwY5z2ttzQNWCmWPEQZOJZebyGKM3AzfiswIyNy/LlT8fQVEr01ZvYi9nb1G69MJ9KTXNWl0fe3scByQH6D/eIdZwIvvAXmpmFHpraowQhFC0t+AOTqUmJczP6q7DHPTjWTbhgT/pjgaTojJb/yIp/Pdebc5kWBJP5H4kHhHLPUhpoNDz9tPDvY+uDM9Hh6TcAn0AD+BgHgXeFFLDR20sYU=
-  app: onehundreddaysofcode
-  on:
-    repo: stoltzmaniac/onehundreddaysofcode
